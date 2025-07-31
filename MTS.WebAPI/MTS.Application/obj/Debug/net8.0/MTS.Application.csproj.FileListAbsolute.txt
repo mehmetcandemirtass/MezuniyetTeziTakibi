@@ -1,0 +1,17 @@
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\bin\Debug\net8.0\MTS.Application.deps.json
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\bin\Debug\net8.0\MTS.Application.runtimeconfig.json
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\bin\Debug\net8.0\MTS.Application.dll
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\bin\Debug\net8.0\MTS.Application.pdb
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\bin\Debug\net8.0\MTS.Domain.dll
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\bin\Debug\net8.0\MTS.Domain.pdb
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\obj\Debug\net8.0\MTS.Application.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\obj\Debug\net8.0\MTS.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\obj\Debug\net8.0\MTS.Application.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\obj\Debug\net8.0\MTS.Application.AssemblyInfo.cs
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\obj\Debug\net8.0\MTS.Application.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\obj\Debug\net8.0\MTS.Appl.EAE8152E.Up2Date
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\obj\Debug\net8.0\MTS.Application.dll
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\obj\Debug\net8.0\refint\MTS.Application.dll
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\obj\Debug\net8.0\MTS.Application.pdb
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\obj\Debug\net8.0\MTS.Application.genruntimeconfig.cache
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Application\obj\Debug\net8.0\ref\MTS.Application.dll

@@ -1,0 +1,601 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\.gitattributes",
+      "PackagePath": "staticwebassets\\Mts\\.gitattributes"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\404.html",
+      "PackagePath": "staticwebassets\\Mts\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Mts\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\Mts\\READ-ME.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\WebUIControllers\\AdvisorController.cs",
+      "PackagePath": "staticwebassets\\Mts\\WebUIControllers\\AdvisorController.cs"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\about.html",
+      "PackagePath": "staticwebassets\\Mts\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\admin\\dashboard.html",
+      "PackagePath": "staticwebassets\\Mts\\admin\\dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\advisor.html",
+      "PackagePath": "staticwebassets\\Mts\\advisor.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\advisor\\dashboard.html",
+      "PackagePath": "staticwebassets\\Mts\\advisor\\dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\category.html",
+      "PackagePath": "staticwebassets\\Mts\\category.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\contact.html",
+      "PackagePath": "staticwebassets\\Mts\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Mts\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\css\\style.css",
+      "PackagePath": "staticwebassets\\Mts\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\elearning-html-template.jpg",
+      "PackagePath": "staticwebassets\\Mts\\elearning-html-template.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\course-1.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\course-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\course-2.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\course-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\course-3.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\course-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\logo_tr_ort.png",
+      "PackagePath": "staticwebassets\\Mts\\img\\logo_tr_ort.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\Mts\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\index.html",
+      "PackagePath": "staticwebassets\\Mts\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\js\\main.js",
+      "PackagePath": "staticwebassets\\Mts\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\Mts\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\Mts\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\Mts\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\Mts\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\Mts\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Mts\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Mts\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Mts\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Mts\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Mts\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\Mts\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Mts\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Mts\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Mts\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Mts\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\Mts\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\Mts\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\Mts\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\Mts\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\login\\advisor-login.html",
+      "PackagePath": "staticwebassets\\Mts\\login\\advisor-login.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\login\\advisorLogin.js",
+      "PackagePath": "staticwebassets\\Mts\\login\\advisorLogin.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\login\\index.html",
+      "PackagePath": "staticwebassets\\Mts\\login\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\login\\login.js",
+      "PackagePath": "staticwebassets\\Mts\\login\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\login\\student-login.html",
+      "PackagePath": "staticwebassets\\Mts\\login\\student-login.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\Mts\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\student\\dashboard.html",
+      "PackagePath": "staticwebassets\\Mts\\student\\dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\team.html",
+      "PackagePath": "staticwebassets\\Mts\\team.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\MTS.WebAPI\\MTS.WebAPI\\wwwroot\\Mts\\testimonial.html",
+      "PackagePath": "staticwebassets\\Mts\\testimonial.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MTS.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MTS.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MTS.WebAPI.props",
+      "PackagePath": "build\\MTS.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MTS.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\MTS.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MTS.WebAPI.props",
+      "PackagePath": "buildTransitive\\MTS.WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

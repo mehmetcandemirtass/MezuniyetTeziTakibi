@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Üniversite Mezuniyet Takip Sistemi</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary d-flex align-items-center">
+                <img src="img/logo_tr_ort.png" alt="Logo" style="height: 40px; margin-right: 10px;">
+                Mezuniyet Tezi Takip Sistemi
+            </h2>
+
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Ana Sayfa</a>
+                <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
+                <a href="contact.html" class="nav-item nav-link">İletişim</a>
+                <a href="advisor.html" class="nav-item nav-link">Danışmanlar</a>
+                <a href="category.html" class="nav-item nav-link">Kategoriler</a>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="#" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block dropdown-toggle" data-bs-toggle="dropdown">
+                    Giriş Yap <i class="fa fa-arrow-right ms-3"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="/Mts/login/student-login.html" class="dropdown-item">Öğrenci Girişi</a>
+                    <a href="/Mts/login/advisor-login.html" class="dropdown-item">Danışman Girişi</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="Mezuniyet Takip Sistemi">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Mezuniyet Takip Sistemi</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Mezuniyet Tezlerinizi<br />Takip Ediniz</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Öğrenciler için mezuniyet tezlerini seçme, danışmanlarla iletişim kurma ve ilerleme raporları oluşturma imkanı sunuyoruz.</p>
+                                <a href="#services" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Daha Fazla Bilgi</a>
+                                <a href="/Mts/login/student-login.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Öğrenci Girişi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="Danışman Girişi">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Danışman Girişi</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Danışmanlar İçin Tez Atama Yönetimi</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Danışmanlar, öğrencilere tez ataması yapabilir, ilerlemeleri takip edebilir ve gerekli bildirimleri alabilir.</p>
+                                <a href="/Mts/login/advisor-login.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Danışman Girişi</a>
+                                <a href="#about" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Daha Fazla Bilgi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+    <!-- Service Start -->
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                            <h5 class="mb-3">Deneyimli Danışmanlar</h5>
+                            <p>Tez danışmanları, alanlarında uzman olup öğrencilere rehberlik ederek kaliteli bir eğitim ve gelişim fırsatı sunmaktadır.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-cogs text-primary mb-4"></i>
+                            <h5 class="mb-3">Proje Takibi</h5>
+                            <p>Öğrenciler, tez ilerlemelerini ve proje gelişimlerini kolayca takip edebilir, danışmanlarıyla geribildirim alabilirler.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-book-reader text-primary mb-4"></i>
+                            <h5 class="mb-3">Kaynak Kitaplar</h5>
+                            <p>Öğrenciler ve danışmanlar, tez konuları ve araştırmalar için geniş bir kitap ve makale koleksiyonuna erişebilirler.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="Mezuniyet Takip Sistemi" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Hakkımızda</h6>
+                    <h1 class="mb-4">Mezuniyet Takip Sistemi'ne Hoş Geldiniz</h1>
+                    <p class="mb-4">Mezuniyet Takip Sistemi, üniversite öğrencilerinin tezlerini takip etmelerine, danışmanlarıyla iletişim kurmalarına ve ilerleme raporlarını düzenlemelerine imkan tanır.</p>
+                    <p class="mb-4">Bu platform, öğrenciler için tez konularını seçme, danışmanlar için tez atamaları yapma, ve tüm kullanıcılar için ilerleme takibi yapma gibi birçok özellik sunmaktadır. Kullanıcı dostu arayüzümüz ile işlerinizin her aşamasını kolayca yönetebilirsiniz.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Öğrenci ve Danışman Girişi</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Tez Seçimi ve Atama</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>İlerleme Raporları</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Bildirim Sistemi</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Kullanıcı Dostu Arayüz</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Teknik Destek</p>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="#contact">İletişime Geçin</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- Kategoriler Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Uzmanlık Alanları</h6>
+                <h1 class="mb-5">Bilgisayar Mühendisliği Kategorileri</h1>
+                <p class="mb-5">Mezuniyet projeleriniz için aşağıdaki kategorilerden birini seçebilir ve ilgili danışmanlarla çalışabilirsiniz.</p>
+            </div>
+            <div class="row justify-content-center g-4">
+
+                <!-- 1. Siber Güvenlik -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Siber Güvenlik" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Siber Güvenlik</h5>
+                            <p class="card-text">
+                                Bilgi sistemlerinin gizlilik, bütünlük ve erişilebilirlik özelliklerini korumayı amaçlayan çalışmaları kapsar. Ağ güvenliği, kriptografi, etik hackleme gibi alt dalları bulunmaktadır.
+                            </p>
+                            <h6>İlgili Danışmanlar</h6>
+                            <ul class="list-unstyled mb-0">
+                                <li>Ali Çalhan</li>
+                                <li>Arafat Şentürk</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Yapay Zeka -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1535378620166-273708d44e4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Yapay Zeka" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Yapay Zeka</h5>
+                            <p class="card-text">
+                                Makinelerin insan zekasını taklit edebilmesi için geliştirilen algoritma ve sistemler. Makine öğrenmesi, derin öğrenme, doğal dil işleme ve bilgisayarlı görü gibi alt alanları vardır.
+                            </p>
+                            <h6>İlgili Danışmanlar</h6>
+                            <ul class="list-unstyled mb-0">
+                                <li>Ahmet Albayrak</li>
+                                <li>Esra Şatır</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Veri Bilimi -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Veri Bilimi" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Veri Bilimi</h5>
+                            <p class="card-text">
+                                Büyük veri kümelerinden anlamlı bilgiler çıkarmak için istatistik, veri analizi ve makine öğrenmesi yöntemlerini birleştiren disiplinler arası bir alandır.
+                            </p>
+                            <h6>İlgili Danışmanlar</h6>
+                            <ul class="list-unstyled mb-0">
+                                <li>Abdullah Talha</li>
+                                <li>Ali Çalhan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-4">
+                <a href="/Mts/category.html" class="btn btn-primary">Devamı</a>
+            </div>
+        </div>
+    </div>
+    <!-- Kategoriler End -->
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Öğretim Görevlileri</h6>
+                <h1 class="mb-5">İlgilendikleri Alanlar</h1>
+            </div>
+            <div class="row g-4">
+
+                <!-- 1. Ali Çalhan -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="https://content.duzce.edu.tr/file/c5ccb9f1-ce0b-4a97-ad00-ff925081d245?w=250&h=250" alt="Ali Çalhan" style="width:250px; height:250px; object-fit:cover;">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="mailto:alicalhan@duzce.edu.tr" target="_blank"><i class="fas fa-envelope"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://akademik.duzce.edu.tr/alicalhan" target="_blank"><i class="fas fa-globe"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.linkedin.com/in/ali-%C3%A7alhan-3b7780113/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Ali Çalhan</h5>
+                            <small>Kablosuz Haberleşme</small>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 2. Ahmet Albayrak -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="https://cdn.duzce.edu.tr/file/getfile/2cee96d1-8564-4ed7-bfda-5046e572cde3" alt="Ahmet Albayrak" style="width:250px; height:250px; object-fit:cover;">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="mailto:ahmetalbayrak@duzce.edu.tr" target="_blank"><i class="fas fa-envelope"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://akademik.duzce.edu.tr/ahmetalbayrak" target="_blank"><i class="fas fa-globe"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.linkedin.com/in/ahmet-albayrak-phd-68789a67/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Ahmet Albayrak</h5>
+                            <small>Siber Güvenlik</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Esra Şatır -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="https://lh5.googleusercontent.com/proxy/tboKSxrsKmcXPpaEjngfZx0dNrQ0B_Eqygc4hs8MYuqrlBF4OIFzAZnFyGeb2pR2rs-xBpgEI7hktoYnGZ0etDHUsgcG1SI3vjTq-CCEzxEUtR9cjyfgXEUPPVBoOjTjbjm8SWpwcgLTtg" alt="Esra Şatır" style="width:250px; height:250px; object-fit:cover;">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="mailto:esrasatir@duzce.edu.tr" target="_blank"><i class="fas fa-envelope"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://akademik.duzce.edu.tr/esrasatir" target="_blank"><i class="fas fa-globe"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.linkedin.com/in/esra-%C5%9Fatir-a82223143/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Esra Şatır</h5>
+                            <small>Bilgisayar Mühendisliği</small>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4. Abdullah Talha -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="https://content.duzce.edu.tr/file/7a9b71b3-5d9d-46e5-8f57-360879be93ba?w=250&h=250" alt="Abdullah Talha" style="width:250px; height:250px; object-fit:cover;">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="mailto:talhakabakus@duzce.edu.tr" target="_blank"><i class="fas fa-envelope"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://akademik.duzce.edu.tr/talhakabakus" target="_blank"><i class="fas fa-globe"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.linkedin.com/in/talhakabakus/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Abdullah Talha</h5>
+                            <small>Java Programlama</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="/Mts/advisor.html" class="btn btn-primary">Devamı</a>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Hızlı Erişim</h4>
+                    <a class="btn btn-link" href="#">Hakkımızda</a>
+                    <a class="btn btn-link" href="#">İletişim</a>
+                    <a class="btn btn-link" href="#">Gizlilik Politikası</a>
+                    <a class="btn btn-link" href="#">Kullanım Şartları</a>
+                    <a class="btn btn-link" href="#">SSS</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">İletişim</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Düzce Üniversitesi, Konuralp Yerleşkesi</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(0380) 542 11 11</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>bilgi@duzce.edu.tr</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com/duzceuniversite" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://facebook.com/DuzceUniversite" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/duzceuniversite" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://duzce.edu.tr" target="_blank"><i class="fas fa-globe"></i></a>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Bülten</h4>
+                    <p>Yeni duyurulardan haberdar olmak için e-posta bültenimize abone olun.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="E-posta adresiniz">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Kaydol</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Mezuniyet Takip Sistemi</a>, Tüm Hakları Saklıdır. <br>
+                        Geliştiren: Mehmetcan Demirtaş – Düzce Üniversitesi Bilgisayar Mühendisliği Öğrencisi
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="#">Ana Sayfa</a>
+                            <a href="#">Çerezler</a>
+                            <a href="#">Yardım</a>
+                            <a href="#">SSS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

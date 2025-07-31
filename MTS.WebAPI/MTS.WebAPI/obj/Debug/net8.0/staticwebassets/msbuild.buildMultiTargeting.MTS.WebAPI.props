@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MTS.WebAPI.props" />
+</Project>

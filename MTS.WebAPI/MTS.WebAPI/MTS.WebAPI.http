@@ -1,0 +1,6 @@
+@MTS.WebAPI_HostAddress = http://localhost:5100
+
+GET {{MTS.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

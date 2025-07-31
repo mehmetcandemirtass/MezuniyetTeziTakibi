@@ -1,0 +1,22 @@
+﻿@model List<MTS.Application.DTOs.Students.StudentDto>
+
+<h2>Tez Öğrencilerim</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ad Soyad</th>
+            <th>E-posta</th>
+            <th>Tez Başlığı</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Name</td>
+                <td>@student.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>

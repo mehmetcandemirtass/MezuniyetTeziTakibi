@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MTS.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MTS.WebAPI.Controllers.AdvisorsController.GetAll">
+            <summary>
+            Tüm danışmanları listeler
+            </summary>
+        </member>
+        <member name="M:MTS.WebAPI.Controllers.AdvisorsController.GetById(System.Int32)">
+            <summary>
+            ID'ye göre danışman getirir
+            </summary>
+            <param name="id">Danışman ID'si</param>
+        </member>
+        <member name="M:MTS.WebAPI.Controllers.AdvisorsController.Create(MTS.Application.DTOs.Advisors.CreateAdvisorDto)">
+            <summary>
+            Yeni danışman oluşturur
+            </summary>
+            <summary>
+            Yeni danışman oluşturur
+            </summary>
+        </member>
+        <member name="M:MTS.WebAPI.Controllers.AdvisorsController.Update(System.Int32,MTS.Application.DTOs.Advisors.UpdateAdvisorDto)">
+            <summary>
+            Danışman bilgilerini günceller
+            </summary>
+        </member>
+        <member name="M:MTS.WebAPI.Controllers.AdvisorsController.Delete(System.Int32)">
+            <summary>
+            Danışmanı siler
+            </summary>
+        </member>
+        <member name="M:MTS.WebAPI.Controllers.StudentsController.GetAll">
+            <summary>
+            Tüm öğrencileri listeler
+            </summary>
+        </member>
+        <member name="M:MTS.WebAPI.Controllers.StudentsController.GetById(System.Int32)">
+            <summary>
+            ID'ye göre öğrenci getirir
+            </summary>
+        </member>
+        <member name="M:MTS.WebAPI.Controllers.StudentsController.Create(MTS.Application.DTOs.Students.CreateStudentDto)">
+            <summary>
+            Yeni öğrenci oluşturur
+            </summary>
+        </member>
+        <member name="M:MTS.WebAPI.Controllers.StudentsController.Update(System.Int32,MTS.Application.DTOs.Students.UpdateStudentDto)">
+            <summary>
+            Öğrenci bilgilerini günceller
+            </summary>
+        </member>
+        <member name="M:MTS.WebAPI.Controllers.StudentsController.Delete(System.Int32)">
+            <summary>
+            Öğrenciyi siler
+            </summary>
+        </member>
+        <member name="M:ThesesController.GetThesisDetails">
+            <summary>
+            Öğrenci tez önerisi gönderir
+            </summary>
+        </member>
+        <member name="M:ThesesController.UpdateStatus(System.Int32,MTS.Application.DTOs.Theses.UpdateThesisStatusDto)">
+            <summary>
+            Danışman tez durumunu günceller
+            </summary>
+        </member>
+        <member name="M:ThesesController.AssignJury(System.Int32,MTS.Application.DTOs.Theses.AssignJuryDto)">
+            <summary>
+            Jüri üyelerini atar
+            </summary>
+        </member>
+    </members>
+</doc>

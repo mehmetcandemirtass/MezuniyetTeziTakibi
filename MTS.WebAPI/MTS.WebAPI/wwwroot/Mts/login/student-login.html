@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Öğrenci Girişi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            width: 100%;
+            max-width: 400px;
+            color: #fff;
+        }
+
+            .login-container h2 {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .login-container label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #fff;
+            color: #764ba2;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            .login-container button:hover {
+                background-color: #f0f0f0;
+            }
+
+        .forgot {
+            text-align: right;
+            font-size: 0.9rem;
+        }
+
+            .forgot a {
+                color: #fff;
+            }
+
+        .error-message {
+            color: #ff6b6b;
+            margin-top: 10px;
+            display: none;
+        }
+        .logo-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+            .logo-wrapper img {
+                width: 100px;
+                height: auto;
+                border-radius: 12px; /* Kenarları yumuşatır */
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+                background-color: #ffffff;
+                padding: 8px;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <img src="/Mts/img/logo_tr_ort.png" alt="Logo" style="display: block; margin: 0 auto 20px auto; width: 150px; height: auto;">
+        <h2>Öğrenci Girişi</h2>
+        <div class="input-group">
+            <label for="username">Öğrenci Numarası</label>
+            <input type="text" id="username" placeholder="Öğrenci Numaranızı girin" required />
+        </div>
+
+        <div class="input-group">
+            <label for="password">Şifre</label>
+            <input type="password" id="password" placeholder="Şifrenizi girin" required />
+        </div>
+
+        <div class="forgot">
+            <a href="#">Şifremi unuttum?</a>
+        </div>
+
+        <button type="button" onclick="login()">Giriş Yap</button>
+
+        <div id="error" class="error-message"></div>
+    </div>
+
+    <script src="/Mts/login/login.js"></script>
+
+</body>
+</html>

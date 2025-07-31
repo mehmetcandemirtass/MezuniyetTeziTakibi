@@ -1,0 +1,14 @@
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\bin\Debug\net8.0\MTS.Domain.deps.json
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\bin\Debug\net8.0\MTS.Domain.runtimeconfig.json
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\bin\Debug\net8.0\MTS.Domain.dll
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\bin\Debug\net8.0\MTS.Domain.pdb
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\obj\Debug\net8.0\MTS.Domain.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\obj\Debug\net8.0\MTS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\obj\Debug\net8.0\MTS.Domain.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\obj\Debug\net8.0\MTS.Domain.AssemblyInfo.cs
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\obj\Debug\net8.0\MTS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\obj\Debug\net8.0\MTS.Domain.dll
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\obj\Debug\net8.0\refint\MTS.Domain.dll
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\obj\Debug\net8.0\MTS.Domain.pdb
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\obj\Debug\net8.0\MTS.Domain.genruntimeconfig.cache
+C:\Users\pc\source\repos\MTS.WebAPI\MTS.Domain\obj\Debug\net8.0\ref\MTS.Domain.dll
