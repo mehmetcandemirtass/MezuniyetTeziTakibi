@@ -3,7 +3,7 @@
 **Üniversite öğrencilerinin mezuniyet tez süreçlerini kolayca yönetebileceği bir web uygulamasıdır.**  
 Öğrenci, danışman ve yönetici panelleri ile; tez seçimi, danışman eşleşmesi, ilerleme takibi, mesajlaşma ve bildirim gibi birçok özelliği bir araya getirir.
 
-> 🚀 **Bu sistem, Düzce Üniversitesi'nde (Kendi Üniversitem) aktif olarak kullanılmaya başlanacaktır.**
+> 🚀 **Bu sistem, Düzce Üniversitesi'nde (Kendi Üniversitem) üstüne eklemeler yapılarak aktif olarak kullanılmaya başlanacaktır.**
 
 ---
 
